@@ -49,6 +49,9 @@
 .marginBottom {
   margin-bottom: 2em;
 }
+.marginBottom1 {
+  margin-bottom: 1em !important;
+}
 .schoolImage {
   position: relative;
   text-align: center;
@@ -79,10 +82,38 @@
   margin: 0 auto;
 }
 .alignLeft {
-    text-align: left;
-    font-size: 1.2em;
-    width: 100%;
+  text-align: left;
+  font-size: 1.2em;
+  width: 100%;
 }
 .width100 {
-    width: 100%;
+  width: 100%;
 }
+.noBorder img {
+  border: none !important;
+}
+.italicBold {
+  font-size: 1.3em;
+  font-weight: bold;
+  font-style: italic;
+}
+.largeImage {
+  img {
+    height: 440px;
+  }
+}
+.largestImage {
+    img {
+        width: 95%;
+        height: 550px;
+    }
+}
+.mainCard {
+  max-width: 400px;
+  padding: 5px;
+  img {
+      width: 100%;
+  }
+}
+
+

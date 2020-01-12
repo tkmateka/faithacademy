@@ -1,0 +1,86 @@
+.admissionContent {
+  text-align: center;
+  margin: 0 auto;
+  img {
+    width: 70%;
+    height: 300px;
+    border: 5px solid brown;
+  }
+  p {
+    font-size: 1.7em;
+    margin: 0;
+  }
+}
+
+.mainButtonBG {
+  button {
+    background: brown;
+    padding: 10px 0;
+    min-width: 60px;
+  }
+  button:hover {
+    background: rgba(165, 42, 42, 0.75);
+    color: aqua;
+  }
+}
+.marginTop {
+  margin-top: 2em;
+}
+.marginBottom {
+  margin-bottom: 2em !important;
+}
+
+.admissionForm {
+  width: 90%;
+  padding: 20px;
+  color: white;
+  font-size: 12px;
+  text-align: left;
+  background: rgba(0, 0, 0, 0.712);
+  h3 {
+    margin: 0;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    text-shadow: -1px -1px 0 brown, 1px -1px 0 brown, -1px 1px 0 brown, 1px 1px 0 brown;
+  }
+}
+
+.admFormInputs {
+  label {
+    font-size: 18px;
+  }
+}
+
+// ======================================
+// Re-Usable Classes
+// ======================================
+
+// Input field
+@mixin input-box() {
+    border: 1px solid brown;
+    border-radius: 7px;
+    height: 2.8em;
+    background: rgba(255, 255, 255, 0.541);
+    padding: 0em;
+    .mat-form-field-underline {
+      display: none;
+    }
+    .mat-form-field-infix {
+      border-top: 2px;
+      padding: 0.8em 1.1em 1em 1.25em;
+    }
+    .mat-form-field-flex{
+        align-items: center;
+    }
+    .mat-input-element {
+        caret-color: brown;
+    }
+  }
+  //Input class
+  .inputField-container {
+    .mat-form-field {
+      @include input-box();
+      width: 100%;
+    }
+  }

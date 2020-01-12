@@ -4,12 +4,14 @@ import { HomeComponent } from './home/home.component';
 import { from } from 'rxjs';
 import { AboutComponent } from './about/about.component';
 import { SchoolComponent } from './school/school.component';
+import { AdmissionComponent } from './admission/admission.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'school', component: SchoolComponent },
+  { path: 'admission', component: AdmissionComponent },
   // { path: 'detail/:id', component: HeroDetailComponent }
 ];
 

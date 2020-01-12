@@ -3,6 +3,42 @@
     <h1>About Us</h1>
   </div>
 
+  <div class="aboutContent" fxLayout="row" fxLayoutAlign="center center">
+    <!-- <img class="mySlide" src="../../assets/classroom/school_building.jpg" alt="logo"> -->
+    <img class="mySlide" src="../../assets/whiteLogo.png" alt="logo">
+  </div>
+
+  <div class="aboutContent marginBottom" fxLayout="row" fxLayoutAlign="center center">
+    <p>A private school for everyone in Ekurhuleni. To measure the greatness of a school, some would count the pupils.
+      At Faith Academy Christian School we prefer to make the pupils and their parents count. Sometime ago the good Lord
+      has laid in my heart to start a Christian School in our area to cater for all parents who are concern about the
+      upbringing of their children. Part of my mandate from the Lord is to have committed and highly disciplined
+      Educators to help with the raising or our children and at the same time teach them the ways of the Lord.</p>
+  </div>
+
+  <div class="aboutContent marginTop" fxLayout="row" fxLayoutAlign="center center">
+    <h1>Vission</h1>
+  </div>
+
+  <div class="aboutContent marginBottom" fxLayout="row" fxLayoutAlign="center center">
+    <p>The Vision of the School is to train and raise a child in the way of the Lord. </p>
+  </div>
+
+  <div class="aboutContent marginTop" fxLayout="row" fxLayoutAlign="center center">
+    <h1>Purpose</h1>
+  </div>
+
+  <div class="aboutContent marginBottom" fxLayout="column" fxLayoutAlign="center center">
+    <p>The purpose of the school is to ensure that a number of students are trained in maths and science. The existence
+      of this school is to ensure that the moral values of the communities are resuscitated and that we raise a
+      community
+      of Excellency.</p>
+
+    <p>The School provides Christian based education from 0 to Grade 12, to children in Boksburg area and surrounds. It
+      uses the Department of Education of South Africa program, as adapted and supplied by School of
+      Tomorrow, to meet the requirements of the South African Core Curriculum. </p>
+  </div>
+
   <div class="aboutImage mainButtonBG" fxLayout="column" fxLayoutAlign="start stretch">
     <div class="alignAuto" *ngFor="let img of images; let i = index">
       <img class="mySlide" *ngIf="slideIndex == i + 1" src="{{img}}" alt="logo">
@@ -12,11 +48,16 @@
     <button mat-raised-button class="top-right" (click)="slide(1)">&#10095;</button>
   </div>
 
-  <div class="aboutContent marginBottom" fxLayout="row" fxLayoutAlign="center center">
-    <p>A private school for everyone in Ekurhuleni. To measure the greatness of a school, some would count the pupils.
-      At Faith Academy Christian School we prefer to make the pupils and their parents count. Sometime ago the good Lord
-      has laid in my heart to start a Christian School in our area to cater for all parents who are concern about the
-      upbringing of their children. Part of my mandate from the Lord is to have committed and highly disciplined
-      Educators to help with the raising or our children and at the same time teach them the ways of the Lord.</p>
+  <div class="aboutContent marginBottom" fxLayout="column" fxLayoutAlign="center center">
+    <p>Faith Academy Christian School also serves as a Christian Institution to assist parents to “train up a child in
+      the way he should go‟ (Proverbs 22:6), in obedience to the commandments of God, according to the Scriptures in the
+      Word of God.</p>
+
+    <p>The School endeavours to equip each child with sound Biblically based educational and life skills, as well as
+      Godly wisdom, insight and character, in order to become mature, stable and productive members of society and
+      assist parents of the School to define each child’s mission in Jesus Christ. This process is based on the belief
+      that each and every child has a unique calling in God (Ephesians 1:4-5).</p>
+
+    <p>Faith Academy Christian School functions as a Christian ministry and on a not for profit basis</p>
   </div>
 </div>
