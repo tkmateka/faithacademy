@@ -1,0 +1,88 @@
+<div class="schoolContainer" fxLayout="column" fxLayoutAlign="start stretch" fxLayoutGap="2em">
+  <div class="schoolContent marginTop" fxLayout="row" fxLayoutAlign="center center">
+    <h1>Faith Academy Christian School</h1>
+  </div>
+
+  <div class="schoolContent" fxLayout="row" fxLayoutAlign="center center" fxFlex="60">
+    <img class="mySlide" src="../../assets/classroom/school_building.jpg" alt="logo">
+  </div>
+
+  <div class="schoolContent marginBottom" fxLayout="row" fxLayoutAlign="center center">
+    <p>First class education is not unlike a delicious meal. Its quality ingredients include: diligent pupils,
+      supportive parents, teachers who are well qualified and passionate about what they do, and a rigorous and
+      challenging curriculum that nurtures body, mind and spirit.</p>
+  </div>
+
+  <div class="schoolContent marginBottom" fxLayout="row" fxLayoutAlign="space-between center">
+    <div class="schoolContentRound" fxLayout="column" fxLayoutAlign="center center" fxFlex="30">
+      <img class="mySlide" src="../../assets/classroom/read.jpg" alt="logo">
+    </div>
+    <div class="schoolContent" fxLayout="column" fxLayoutAlign="center center" fxFlex="60">
+      <p>Quality education, needs to mature. It takes time for
+        the God given potential within each pupil to be realized. At Faith Academy we will be committed to develop young
+        people into a great nation. We envisage a dynamic and excellent team of young people who fear God. Our school
+        will
+        be a drag free school with emphasis on moral regeneration.</p>
+    </div>
+  </div>
+
+  <div class="schoolContent marginBottom" fxLayout="row" fxLayoutAlign="space-between center">
+    <div class="schoolContent" fxLayout="column" fxLayoutAlign="center center" fxFlex="60">
+      <p>Our biggest concern is the level at which the country is lacking skill in maths and science. It is therefore,
+        our main purpose to ensure that we raise a large number of students with Maths and science. The school will be
+        focusing on 80% Maths & Science to ensure that we prepare our students to participate in Renewable Energy,
+        Engineering studies, Technology and medical science.</p>
+    </div>
+    <div class="schoolContentBlock" fxLayout="column" fxLayoutAlign="center center" fxFlex="30">
+      <img class="mySlide" src="../../assets/classroom/learn1.jpg" alt="logo">
+    </div>
+  </div>
+
+  <div class="schoolContent marginTop" fxLayout="row" fxLayoutAlign="center center">
+    <h1>PREAMBLE</h1>
+  </div>
+
+  <div class="schoolContent marginBottom" fxLayout="row" fxLayoutAlign="center center">
+    <p>At Faith Academy Christian School, we will promote an ethos of respect and equality in accordance with the
+      Constitution of our country, to recognize and value cultural and lifestyle differences, and to increase the
+      awareness of each learner’s cultural heritage, and further agree that we will create opportunities intended to
+      develop unity and understanding as a school, and as a community.</p>
+  </div>
+
+  <div class="schoolImage mainButtonBG marginBottom" fxLayout="column" fxLayoutAlign="start stretch">
+    <div class="alignAuto" *ngFor="let img of images; let i = index">
+      <img class="mySlide" *ngIf="slideIndex == i + 1" src="{{img}}" alt="logo">
+    </div>
+
+    <button mat-raised-button class="top-left" (click)="slide(-1)">&#10094;</button>
+    <button mat-raised-button class="top-right" (click)="slide(1)">&#10095;</button>
+  </div>
+
+  <div class="schoolContent alignLeft marginBottom" fxLayout="column" fxLayoutAlign="start stretch">
+    <p>As a learning community, we will aspire to: </p>
+
+    <ol>
+      <li>Show reverence toward the spiritual</li>
+      <li>Develop genuine friendships</li>
+      <li>Respect the worth and dignity of the individual</li>
+      <li>Widen the area of common agreement by which decisions are made and actions taken</li>
+      <li>Develop personal integrity and moral courage</li>
+      <li>Help individuals to develop their talents and skills</li>
+      <li>Reflect disapproval of behaviour wherein one individual does or says things harmful to another, or to the good
+        name of the School, and</li>
+      <li>Encourage a continuous evaluation of things as they are with a view to
+        improvement</li>
+    </ol>
+  </div>
+
+  <div class="schoolContent alignLeft marginBottom" fxLayout="column" fxLayoutAlign="start stretch">
+    <p>We will furthermore encourage individuals to: </p>
+
+    <ul>
+      <li>accept their civil and communal responsibilities</li>
+      <li>use democratic methods to achieve group agreement</li>
+      <li>consider the common good before group or personal loyalties, and</li>
+      <li>live in accordance with agreed-upon standards</li>
+    </ul>
+  </div>
+</div>

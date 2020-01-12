@@ -1,0 +1,28 @@
+.toolBar {
+    background: brown;
+    padding: 0 15px 0 0;
+    height: 90px;
+}
+.logo {
+    height: 100%;
+    img {
+        width: 90px;
+        height: 100%;
+    }
+    img:hover {
+        cursor: pointer;
+    }
+}
+.navItems {
+    padding-right: 10px;
+    a {
+        color: white;
+        font-size: 1.2em;
+        text-decoration: none;
+    }
+    a:hover, .active {
+        font-weight: bold;
+        color: aqua;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,22 @@
+<div class="aboutContainer" fxLayout="column" fxLayoutAlign="start stretch" fxLayoutGap="2em">
+  <div class="aboutContent marginTop" fxLayout="row" fxLayoutAlign="center center">
+    <h1>About Us</h1>
+  </div>
+
+  <div class="aboutImage mainButtonBG" fxLayout="column" fxLayoutAlign="start stretch">
+    <div class="alignAuto" *ngFor="let img of images; let i = index">
+      <img class="mySlide" *ngIf="slideIndex == i + 1" src="{{img}}" alt="logo">
+    </div>
+
+    <button mat-raised-button class="top-left" (click)="slide(-1)">&#10094;</button>
+    <button mat-raised-button class="top-right" (click)="slide(1)">&#10095;</button>
+  </div>
+
+  <div class="aboutContent marginBottom" fxLayout="row" fxLayoutAlign="center center">
+    <p>A private school for everyone in Ekurhuleni. To measure the greatness of a school, some would count the pupils.
+      At Faith Academy Christian School we prefer to make the pupils and their parents count. Sometime ago the good Lord
+      has laid in my heart to start a Christian School in our area to cater for all parents who are concern about the
+      upbringing of their children. Part of my mandate from the Lord is to have committed and highly disciplined
+      Educators to help with the raising or our children and at the same time teach them the ways of the Lord.</p>
+  </div>
+</div>

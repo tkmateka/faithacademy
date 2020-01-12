@@ -1,0 +1,27 @@
+.homeContainer {
+    height: 100%;
+    color: white;
+    padding: 0 15px;
+}
+.homeContact {
+    text-align: center;
+    h1 {
+        margin: 0;
+        font-size: 4em;
+        text-shadow: -1px -1px 0 brown, 1px -1px 0 brown, -1px 1px 0 brown, 1px 1px 0 brown;
+    }
+    p {
+        font-size: 1.7em;
+        margin: 0;
+    }
+}
+.mainButtonBG {
+    button {
+        background: brown;
+        padding: 10px 0;
+    }
+    button:hover {
+        background: rgba(165, 42, 42, 0.75);
+        color: aqua;
+    }
+}
