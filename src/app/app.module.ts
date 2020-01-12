@@ -7,11 +7,12 @@ import { HomeComponent } from './home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FlexLayoutModule } from "@angular/flex-layout";
 
-import { MatInputModule, MatButtonModule, MatSelectModule, MatIconModule } from '@angular/material';
+import { MatInputModule, MatButtonModule, MatSelectModule, MatIconModule, MatCardModule } from '@angular/material';
 import { FormsModule } from '@angular/forms';
 import { NavbarComponent } from './navbar/navbar.component';
 import { AboutComponent } from './about/about.component';
 import { SchoolComponent } from './school/school.component';
+import { AdmissionComponent } from './admission/admission.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { SchoolComponent } from './school/school.component';
     HomeComponent,
     NavbarComponent,
     AboutComponent,
-    SchoolComponent
+    SchoolComponent,
+    AdmissionComponent
   ],
   imports: [
     BrowserModule,
@@ -30,6 +32,7 @@ import { SchoolComponent } from './school/school.component';
     MatButtonModule,
     MatSelectModule,
     MatIconModule,
+    MatCardModule,
     FlexLayoutModule
   ],
   providers: [],
