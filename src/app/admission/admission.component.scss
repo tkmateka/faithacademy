@@ -1,10 +1,12 @@
+@import '../../styles.scss';
+
 .admissionContent {
   text-align: center;
   margin: 0 auto;
   img {
     width: 70%;
     height: 300px;
-    border: 5px solid brown;
+    border: 5px solid $primaryColor;
   }
   p {
     font-size: 1.7em;
@@ -14,13 +16,13 @@
 
 .mainButtonBG {
   button {
-    background: brown;
+    background: $primaryColor;
     padding: 10px 0;
     min-width: 60px;
   }
   button:hover {
-    background: rgba(165, 42, 42, 0.75);
-    color: aqua;
+    background: $primaryColorTransparent;
+    color: $aqua;
   }
 }
 .marginTop {
@@ -33,16 +35,16 @@
 .admissionForm {
   width: 90%;
   padding: 20px;
-  color: white;
+  color: $white;
   font-size: 12px;
   text-align: left;
-  background: rgba(0, 0, 0, 0.712);
+  background: $transparentBlack;
   h3 {
     margin: 0;
-    color: white;
+    color: $white;
     font-size: 2em;
     text-align: center;
-    text-shadow: -1px -1px 0 brown, 1px -1px 0 brown, -1px 1px 0 brown, 1px 1px 0 brown;
+    text-shadow: -1px -1px 0 $primaryColor, 1px -1px 0 $primaryColor, -1px 1px 0 $primaryColor, 1px 1px 0 $primaryColor;
   }
 }
 
@@ -58,7 +60,7 @@
 
 // Input field
 @mixin input-box() {
-    border: 1px solid brown;
+    border: 1px solid $primaryColor;
     border-radius: 7px;
     height: 2.8em;
     background: rgba(255, 255, 255, 0.541);
@@ -74,7 +76,7 @@
         align-items: center;
     }
     .mat-input-element {
-        caret-color: brown;
+        caret-color: $primaryColor;
     }
   }
   //Input class

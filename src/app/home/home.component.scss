@@ -1,6 +1,8 @@
+@import '../../styles.scss';
+
 .homeContainer {
     height: 100%;
-    color: white;
+    color: $white;
     padding: 0 15px;
 }
 .homeContact {
@@ -8,7 +10,7 @@
     h1 {
         margin: 0;
         font-size: 4em;
-        text-shadow: -1px -1px 0 brown, 1px -1px 0 brown, -1px 1px 0 brown, 1px 1px 0 brown;
+        text-shadow: -1px -1px 0 $primaryColor, 1px -1px 0 $primaryColor, -1px 1px 0 $primaryColor, 1px 1px 0 $primaryColor;
     }
     p {
         font-size: 1.7em;
@@ -17,11 +19,11 @@
 }
 .mainButtonBG {
     button {
-        background: brown;
+        background: $primaryColor;
         padding: 10px 0;
     }
     button:hover {
-        background: rgba(165, 42, 42, 0.75);
-        color: aqua;
+        background: $primaryColorTransparent;
+        color: $aqua;
     }
 }

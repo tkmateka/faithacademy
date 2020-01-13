@@ -1,6 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Zilla+Slab&display=swap');
 
+$primaryColor: brown;
+$primaryColorLight: #ff8888;
+$primaryColorTransparent: rgba(165, 42, 42, 0.75);
+$aqua: aqua;
+$white: white;
+$transparentBlack: #000000bf;
+
 $mainFont: 'Zilla Slab', serif;
 
 html, body { 
@@ -26,11 +33,11 @@ body {
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: brown; 
+    background: $primaryColor; 
     border-radius: 10px;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #ff8888; 
+    background: $primaryColorLight; 
   }
