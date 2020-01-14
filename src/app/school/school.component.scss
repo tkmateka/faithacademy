@@ -1,8 +1,7 @@
-@import '../../styles.scss';
-
+@import "../../styles.scss";
 
 .schoolContainer {
-  color: $white;
+  color: $aqua;
   padding: 0 15px;
   background: $transparentBlack;
 }
@@ -17,9 +16,8 @@
   }
   h1 {
     margin: 0;
-    color: $white;
     font-size: 4em;
-    text-shadow: -1px -1px 0 $primaryColor, 1px -1px 0 $primaryColor, -1px 1px 0 $primaryColor, 1px 1px 0 $primaryColor;
+    text-shadow: -2px -2px 0 $primaryColor, 2px -2px 0 $primaryColor, -2px 2px 0 $primaryColor, 2px 2px 0 $primaryColor;
   }
   p {
     font-size: 1.7em;
@@ -42,7 +40,7 @@
   }
   button:hover {
     background: $primaryColorTransparent;
-    color: $aqua;
+    color: $white;
   }
 }
 .marginTop {
@@ -91,7 +89,7 @@
 .width100 {
   width: 100%;
 }
-.noBorder img {
+.noBorder, .noBorder img {
   border: none !important;
 }
 .italicBold {
@@ -105,17 +103,20 @@
   }
 }
 .largestImage {
-    img {
-        width: 95%;
-        height: 550px;
-    }
-}
-.mainCard {
-  max-width: 400px;
-  padding: 5px;
   img {
-      width: 100%;
+    width: 95%;
+    height: 450px;
   }
 }
-
-
+.mainCard {
+  // max-width: 400px;
+  padding: 0px;
+  background: $primaryColor;
+  color: $aqua;
+  img {
+    width: 100%;
+  }
+  .mat-card-image {
+    margin: 0 -24px 9px -24px;
+  }
+}

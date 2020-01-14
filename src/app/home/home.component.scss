@@ -2,7 +2,7 @@
 
 .homeContainer {
     height: 100%;
-    color: $white;
+    color: $aqua;
     padding: 0 15px;
 }
 .homeContact {
@@ -10,7 +10,7 @@
     h1 {
         margin: 0;
         font-size: 4em;
-        text-shadow: -1px -1px 0 $primaryColor, 1px -1px 0 $primaryColor, -1px 1px 0 $primaryColor, 1px 1px 0 $primaryColor;
+        text-shadow: -2px -2px 0 $primaryColor, 2px -2px 0 $primaryColor, -2px 2px 0 $primaryColor, 2px 2px 0 $primaryColor;
     }
     p {
         font-size: 1.7em;
@@ -24,6 +24,6 @@
     }
     button:hover {
         background: $primaryColorTransparent;
-        color: $aqua;
+        color: $white;
     }
 }

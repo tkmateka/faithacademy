@@ -22,7 +22,7 @@
   }
   button:hover {
     background: $primaryColorTransparent;
-    color: $aqua;
+    color: $white;
   }
 }
 .marginTop {
@@ -35,16 +35,15 @@
 .admissionForm {
   width: 90%;
   padding: 20px;
-  color: $white;
+  color: $aqua;
   font-size: 12px;
   text-align: left;
   background: $transparentBlack;
   h3 {
     margin: 0;
-    color: $white;
     font-size: 2em;
     text-align: center;
-    text-shadow: -1px -1px 0 $primaryColor, 1px -1px 0 $primaryColor, -1px 1px 0 $primaryColor, 1px 1px 0 $primaryColor;
+    text-shadow: -2px -2px 0 $primaryColor, 2px -2px 0 $primaryColor, -2px 2px 0 $primaryColor, 2px 2px 0 $primaryColor;
   }
 }
 
