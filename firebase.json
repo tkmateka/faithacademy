@@ -1,6 +1,10 @@
 {
   "hosting": {
+<<<<<<< HEAD
     "public": "dist",
+=======
+    "public": "dist/faithacademy",
+>>>>>>> 5233cd3fcbf4f3774fec0cd30a210e858f488c83
     "ignore": [
       "firebase.json",
       "**/.*",
